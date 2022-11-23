@@ -1,16 +1,49 @@
-# Vue 3 + TypeScript + Vite
+<img src="src/assets/img/logo1.png"  width="200px">
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This is product of Docsvision company.
 
-## Recommended IDE Setup
+# CSS переменные 🌹
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+**Перевод веб-клиента на css variables**:
 
-## Type Support For `.vue` Imports in TS
+основная цель - избавиться от светофора на страницах и дать юзерам возможность выбирать и настраивать **primary** цвета и темы.
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+- [x] - vue 3
+- [x] - vite 2.x
+- [x] - quasar 2.x
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+This starter template also includes an plain :
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- [x] - [pinia](https://github.com/vuejs/pinia)[Intuitive, type safe and flexible Store for Vue]
+- [x] - [UnoCss](https://github.com/antfu/unocss)[The instant on-demand Atomic CSS engine. and next architecture for windi css v4]
+- [x] - [vite-plugin-vue-i18n](https://github.com/intlify/bundle-tools/tree/main/packages/vite-plugin-vue-i18n)[vue-i18n-next plugin for vite]
+- [x] - [Vite-plugin-pages](https://github.com/hannoeru/vite-plugin-pages) - file system based routing
+- [x] - [Vite-plugin-vue-layouts](https://github.com/JohnCampionJr/vite-plugin-vue-layouts) - layouts for pages
+- [x] - [Searchable Quasar Framework SVG icons](https://github.com/hawkeye64/iconexplorer.app)[**quasar author's product**]
+- [x] - [Vite-quasar-api](https://github.com/fyeeme/vite-quasar-api)(more feat needed)
+
+## Out of box functions
+
+- [x] - Поиск переменной по имени
+- [x] - Копирование значения
+- [x] - Примеры использования
+- [x] - Поиск по компоненте
+
+## Ветки
+
+Разработка в ветке main, есть первоначальный шаблон в ветке backup.
+
+Разработка в ветке main, есть первоначальный шаблон в ветке backup.
+
+## HOW TO USE
+
+Установка и запуск
+
+```shell
+npm install
+npm run dev
+```
+
+## Превью
+
+Посмотреть в работе можно здесь:
